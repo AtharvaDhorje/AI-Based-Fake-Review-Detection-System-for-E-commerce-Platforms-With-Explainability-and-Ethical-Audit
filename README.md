@@ -101,15 +101,8 @@ X_test_tfidf = tfidf_vectorizer.transform(X_test_raw['cleaned_text']).toarray()
 This project is licensed under the **Apache License 2.0**.  
 See [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE) for details.
 
+
+
 **Copyright © 2026 Atharva Amit Dhorje**
 
-
-
 Feel free to star ⭐ the repo if you find it useful!
-
-
-**How to use:**
-1. Create a file named **`README.md`** in the root of your repository.
-2. Paste the entire content above.
-3. Replace `YOUR-USERNAME` with your actual GitHub username.
-4. Make sure you also have the `LICENSE` (Apache 2.0) and `NOTICE` files in the same folder (I already gave you the NOTICE).
