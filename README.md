@@ -89,16 +89,13 @@ X_test_tfidf = tfidf_vectorizer.transform(X_test_raw['cleaned_text']).toarray()
 - Global feature importance: `unique_word_ratio`, `stopword_ratio`, `text_length`, TF-IDF bigrams, `sentiment_score`
 - Local explanations available in notebook (force plots)
 
-## 📋 Rubric Compliance
-- ✅ Problem Definition  
-- ✅ Literature Review (18 real references)  
-- ✅ Results with XAI (SHAP)  
-- ✅ Full Report + PPT
+
 
 ## 📄 Additional Files
 - `REPORT.md` → Complete project report (rubric-ready)
-- `PRESENTATION.md` → 12-slide PPT outline for demo
-- Full 52-page notebook with all outputs
+- LICENSE
+- README.md
+- NOTICE
 
 ## 📜 License
 This project is licensed under the **Apache License 2.0**.  
