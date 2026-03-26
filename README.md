@@ -1,4 +1,4 @@
-```markdown
+
 # AI-Based Fake Review Detection System for E-commerce Platforms  
 **With Explainability and Ethical Audit**
 
@@ -24,7 +24,7 @@ A complete **M.Tech project** for **AI System Design and Ethics** that detects f
 
 ## 🚀 Quick Start
 
-```bash
+
 # 1. Clone the repo
 git clone https://github.com/YOUR-USERNAME/AI-Fake-Review-Detection.git
 cd AI-Fake-Review-Detection
@@ -34,10 +34,10 @@ pip install -r requirements.txt
 
 # 3. Run the notebook
 jupyter notebook notebook/fake_review_detection.ipynb
-```
+
 
 ## 📁 Project Structure
-```
+
 AI-Fake-Review-Detection/
 ├── README.md
 ├── REPORT.md
@@ -49,12 +49,11 @@ AI-Fake-Review-Detection/
 │   └── fake_review_detection.ipynb
 ├── images/                  # EDA plots, SHAP visualizations
 └── data/                    # (optional) dataset/fake_reviews_dataset.csv
-```
 
 ## 📋 Code Highlights from the Notebook
 
 ### Imports & Dataset Loading
-```python
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -68,10 +67,9 @@ nltk.download(['punkt', 'stopwords', 'vader_lexicon'], quiet=True)
 
 df = pd.read_csv('dataset/fake_reviews_dataset.csv')
 print(f"Dataset shape: {df.shape}")   # (40432, 4)
-```
 
 ### Leakage-Safe Split & TF-IDF
-```python
+
 # Split BEFORE any preprocessing
 X_train_raw, X_test_raw, y_train, y_test = train_test_split(
     X_raw, y, test_size=0.15, random_state=42, stratify=y)
@@ -80,7 +78,7 @@ X_train_raw, X_test_raw, y_train, y_test = train_test_split(
 tfidf_vectorizer = TfidfVectorizer(max_features=50, ngram_range=(1,2))
 X_train_tfidf = tfidf_vectorizer.fit_transform(X_train_raw['cleaned_text']).toarray()
 X_test_tfidf = tfidf_vectorizer.transform(X_test_raw['cleaned_text']).toarray()
-```
+
 
 ### Final Model Performance
 - **Test Accuracy**: 87.02%  
@@ -108,14 +106,10 @@ See [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE) for details.
 
 **Copyright © 2026 Atharva Amit Dhorje**
 
----
 
-**Made with ❤️ for M.Tech AI System Design and Ethics**
 
 Feel free to star ⭐ the repo if you find it useful!
-```
 
----
 
 **How to use:**
 1. Create a file named **`README.md`** in the root of your repository.
