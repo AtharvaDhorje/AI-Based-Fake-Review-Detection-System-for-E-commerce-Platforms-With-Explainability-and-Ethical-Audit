@@ -40,15 +40,13 @@ jupyter notebook notebook/fake_review_detection.ipynb
 
 AI-Fake-Review-Detection/
 ├── README.md
-├── REPORT.md
-├── PRESENTATION.md
 ├── LICENSE
 ├── NOTICE
 ├── requirements.txt
 ├── notebook/
 │   └── fake_review_detection.ipynb
-├── images/                  # EDA plots, SHAP visualizations
-└── data/                    # (optional) dataset/fake_reviews_dataset.csv
+├── images/                  
+└── data/                   
 
 ## 📋 Code Highlights from the Notebook
 
