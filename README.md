@@ -1,0 +1,2 @@
+# AI-Based-Fake-Review-Detection-System-for-E-commerce-Platforms-With-Explainability-and-Ethical-Audit
+AI-Based Fake Review Detection System for E-commerce Platforms With Explainability (SHAP) and Ethical Audit. Leakage-safe Gradient Boosting pipeline (train-only TF-IDF + scaling), linguistic + sentiment features, 86.93% F1-score on holdout test. Full SHAP global/local explanations, fairness by rating group, and complete ethical checklist.
